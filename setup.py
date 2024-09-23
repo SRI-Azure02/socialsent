@@ -10,7 +10,7 @@ setup(name='socialsent',
       packages=['socialsent'],
       install_requires = ['numpy',
                           'keras==0.3',
-                          'sklearn',
+                          'scikit-learn',
                           'theano'],
       package_data= {'socialsent' : ['data/lexicons/*.json']},
       zip_safe=False)
